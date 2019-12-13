@@ -15,7 +15,7 @@ alias gcm='git checkout master'
 alias gd='git diff --ignore-space-change --ignore-all-space'
 alias gh="git config --get remote.origin.url"
 alias gpurgebranches="confirm 'Purge all non-current git branches?' && git branch --merged | grep -v \* | xargs git branch -D"
-alias git-config-cdaringe="git config --global user.name cdaringe && git config --global user.email christopher.dieringer@gmail.com && git config --global core.editor vim && git config --global push.default current"
+alias git-config-byrne="git config --global user.name jessicabyrne && git config --global user.email jessica.byrne@colorado.edu && git config --global core.editor vim && git config --global push.default current"
 function git_upload_ssh_key () {
   read -p "Enter github email : " email
   echo "Using email $email"
